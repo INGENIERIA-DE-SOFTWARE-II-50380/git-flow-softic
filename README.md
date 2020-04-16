@@ -7,3 +7,5 @@ Para inicializar en local realizar lo siguiente:
 2. `npm install`
 3. `npm start`
 4. ir a la dirección http://localhost:8080
+
+Texto agregado intencionalmente para realizar un commit.
