@@ -1,5 +1,5 @@
 # Simple RESTful API
-Se utilizó express.js para crear un endpoint /echo que recibe un json con un par llave vvalore
+Se utilizó express.js para crear un endpoint /echo que recibe un json con un par llave valor
 
 Para inicializar en local realizar lo siguiente:
 
