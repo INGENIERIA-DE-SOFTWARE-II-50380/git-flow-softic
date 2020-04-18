@@ -25,6 +25,16 @@ app.post('/fecha', (req, res) => {
   console.log(`===> endpoint /fecha con ${echo}`);
 });
 
+app.post('/aleatorio', (req, res) => {
+  random = Math.random()*100;
+  var echo = random
+  res.status(200).send({
+      status: true,
+      mensaje: `Numero aleatorio: ${echo}`
+  });
+  console.log(`===> endpoint /fecha con ${echo}`);
+});
+
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log('simple API escuchando en el puerto: ', port);
